@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">SB</a>
+        <nav>
+            <a href="#home" class="active"> Home</a>
+            <a href="#about" >About Me</a>
+            <a href="#education" >Education</a>
+            <a href="#skills" >Skills</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Shanley</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Shanley, and I am an Information Technology student specializing in web development, UI/UX design, and software engineering.<br>
+        I enjoy solving real-world problems through innovative technology solutions.</p>
+        <p>
+            I'm passionate about technology and creativity. In my free time, I enjoy:
+        </p>
+        <ul>
+            <li>Exploring new programming languages and tools</li>
+            <li>Solving puzzles</li>
+            <li>Photography and capturing the beauty of nature</li>
+            <li>Gaming to unwind and have fun</li>
+        </ul>
+        <p>
+            I'm always eager to learn and grow both personally and professionally. 
+        </p>
+    </section>
+
+    <section id="education">
+        <div class="education-content">
+            <h2>Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Lyceum of the Philippines University - Cavite (2019 - 2025)</p>
+                    <p>Specialized in Software Development and Web Design.</p>
+                </div>
+                <div class="education-item">
+                    <h3>High School Diploma</h3>
+                    <p>Lyceum of the Philippines University - Cavite (2017 - 2019)</p>
+                    <p>Focused on Science, Technology, Engineering and Mathematics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, JavaScript, Java</li>
+            <li>Web Development: HTML, CSS, React</li>
+            <li>Database Management: MySQL</li>
+            <li>Cloud Computing: AWS</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shanley. All rights reserved.</p>
+    </footer>
+</body>
+</html>
